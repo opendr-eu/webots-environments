@@ -9,7 +9,10 @@ Custom Webots environments and controllers created in the context of the OpenDR 
 - "protos" folder: this directory contains the local PROTO files referenced by the world files of the current project.
 - "plugins" folder: this directory contains the physics plugins used by the current project.
 - "worlds" folder: this directory contains the world files
+3. All the necessary assets (images, custom PROTO files, meshes) should be included.
 
+Note: if the controller requires additional data to be present (trained models, datasets, etc) to run, these should *not* be included.
+The only requirement is that the world opens without warnings and/or missing assets.
 
 Example:
 ```
