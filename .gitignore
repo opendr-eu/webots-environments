@@ -1,0 +1,82 @@
+# Global rules #
+################
+
+# Build directories
+build
+
+# Compiled source
+*.exe
+*.o
+*.d
+*.class
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.cof
+*.hex
+*.pyc
+*.gch
+
+# Packages
+*.7z
+*.bz2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.xz
+*.zip
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.directory
+ehthumbs.db
+Thumbs.db
+*.swp
+
+# Text editor backup files
+*~
+
+# Log files
+*.log
+
+# IDE files
+.vscode
+.idea
+
+# Local rules #
+###############
+
+/.clang-format
+#Python virtual environment directory
+/venv
+
+# Caching
+.cache/
+logs/
+temp/
+
+# proto cache
+.*.cache
+
+# ROS interface
+projects/opendr_ws/.catkin_workspace
+projects/opendr_ws/devel/
+projects/python/control/eagerx/eagerx_ws/
+
+projects/opendr_ws_2/build
+projects/opendr_ws_2/install
+projects/opendr_ws_2/log
+projects/opendr_ws_2/MOT
+projects/opendr_ws_2/KITTI
+
+# packages
+src/opendr_toolkit*.egg-info/
